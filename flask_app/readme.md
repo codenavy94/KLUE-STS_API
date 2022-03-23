@@ -1,6 +1,6 @@
 ## Set Current Working Directory
 
-1. flask_app으로 경로를 설정해주세요.
+1. ```flask_app```으로 경로를 설정해주세요.
 
 ```cmd
 cd flask_app
@@ -10,7 +10,7 @@ C:\Desktop\YOUR_DIR_NAME\KLUE-STS_API\flask_app>
 
 ## Requirements
 
-2. requirement.txt 를 설치해 주세요.
+2. ```requirement.txt``` 를 설치해 주세요.
 
 ```cmd
 pip install -r requirements.txt
@@ -32,4 +32,4 @@ ckpt = torch.load((f'{YOUR_DIR_NAME}/{MODEL_CHECKPOINT_NAME}'), map_location = d
 FLASK_APP=project flask run
 ```
 
-6. 창이 뜨면 url 뒤에 /predict를 입력해주면 됩니다.
+6. 창이 뜨면 url 뒤에 ```/predict```를 입력해주면 됩니다.
