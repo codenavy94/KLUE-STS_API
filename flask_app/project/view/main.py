@@ -13,6 +13,7 @@ if torch.cuda .is_available():
 else:
     device = torch.device('cpu')
 
+# checkpoint
 ckpt = torch.load(('model_4_3e-05_16_fold4.ckpt.epoch3'), map_location = device)
 
 def some_func(s1, s2):
